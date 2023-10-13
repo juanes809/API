@@ -1,0 +1,27 @@
+.contenedor-padre{
+    display: grid;
+    grid-template-columns: repeat(3,20rem);
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+
+.contenedor-ficha{
+    display: grid;
+    background-color:beige;
+    outline: 3px ridge  rgb(255, 255, 149);
+    border-radius: 8px ;
+    width: 20rem;
+    height: 10rem;
+    grid-template-columns: 8rem 12rem;
+}
+
+.styleImg{
+    padding: 10px;
+    width: 7rem;
+    height: 8.5rem;
+    display: flex;
+    align-content:center ;
+    flex-wrap: wrap;
+}
+
